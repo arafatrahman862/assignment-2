@@ -350,15 +350,21 @@ padding-right: 200px;
 
 
  .gradiant{
-    padding-top: 50px;
+    padding-top: 0px;
     padding-left: 50px;
     border-radius: 8px;
     margin: 0;
     background-repeat: no-repeat;
-    margin: 130px 280px;
+    margin: 40px 280px;
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url("./images/watch.png"); ;
     
     
+    }
+    .sponsor-container1{
+        width: 80%;
+       padding-left: 250px;
+       padding-top: 20px;
+       padding-bottom: 0;
     }
   
     .grad-title{
@@ -377,7 +383,7 @@ padding-right: 200px;
     flex-direction: column;
     gap: 10px;
     padding: 5px;
-   
+   align-items: center;
 }
 .sponsor-ul{
     flex-direction: column;
@@ -387,9 +393,7 @@ padding-right: 200px;
     margin-bottom: 10px;
     
 }
-.sponsor-container{
-    
-}
+
 
 .fourth-layer-container{
     display: grid;
@@ -449,23 +453,78 @@ padding-right: 200px;
 .achivement-container {
     margin: 0;
     padding: 0;
+    width: 50%;
+    height: 5%;
+    padding-left: 40px;
+    padding-top: 0px;
 }
 .achivement-img{
-
+margin: 0;
+padding-left: 55px;
 }
 .achivement-num{
-
+    margin: 0;
+    padding: 0;
 }
 .achivement-info{
-    
+    margin: 0;
+    padding: 0;
 }
-
+.sponsor-container {
+    /* padding: 0;
+    margin-left: 15px;
+    /* margin-top: 30px; */ 
+    
+    margin-left: 15px;
+     margin-top: 30px;
+}
+.sponsor-container1{
+    width: 100%;
+    height: 50%;
+}
+.sponsor-ul{
+    width: 50%;
+    height: 50%;
+  margin-left: 5px;
+}
+.sponsor-img{
+    margin-left: -220px;
+    margin-bottom: 30px;
+}
+.gradiant {
+    width: 90%;
+    height: 5%;
+    margin-left: 10px;
+}
+/* ---------------------
+hover
+-------------------- */
+.achivement:hover{
+    background-color: #FF900E;
+}
 
 
 .footer-container{
-    
-    
+    width: 26%;
+    height: 0%;
+    margin-left: 5px;
+}
+.footer{
+    padding-bottom: 15px;
+    padding: 0px;
+    text-align: center;
+}
+.header-list:hover{
+background-color: #FF900E;
 }
 
     }
     
+   @media only screen and (min-width: 769px) and (max-width:992px) {
+    .achivement:hover{
+        background-color: #FF900E;
+    }
+    .header-list:hover{
+        background-color: #FF900E;
+        }
+   }
