@@ -371,3 +371,101 @@ padding-right: 200px;
     .gap{
         padding-bottom: 40px;
     }
+    @media only screen and (max-width:768px){
+        
+.header-container , .header-ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+   
+}
+.sponsor-ul{
+    flex-direction: column;
+    width: 10%;
+    margin: 1px;
+    padding: 0;
+    margin-bottom: 10px;
+    
+}
+.sponsor-container{
+    
+}
+
+.fourth-layer-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.sec-banner{
+    padding: 20px;
+    padding-left: 35px;
+}
+.third-layer-container {
+    grid-template-columns: repeat(1,1fr);
+}
+.third-layer-img{
+    grid-template-columns: repeat(1,1fr);
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 2px;
+}
+.third-layer-feature{
+    margin-left: 10px;
+    margin-top: 0;
+    padding-top: 2px;
+}
+.fourth-layer-courses {
+    flex-direction: column;
+}
+.course-img{
+    width: 100%;
+}
+.other{
+    top: 10px;
+    left: 0;
+    width: 50%;
+    height: 10%;
+    margin-left: 10px;
+}
+.other-txt{
+    padding: 10px 15px ;
+}
+.fifth-layer-container{
+    margin: 0px;
+}
+.fifth-layer-title{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.fifth-layer-txt{
+   
+    margin-left: 10px;
+}
+.achivement-ul{
+    flex-direction: column;
+    margin: 0;
+}
+.achivement-container {
+    margin: 0;
+    padding: 0;
+}
+.achivement-img{
+
+}
+.achivement-num{
+
+}
+.achivement-info{
+    
+}
+
+
+
+.footer-container{
+    
+    
+}
+
+    }
+    
